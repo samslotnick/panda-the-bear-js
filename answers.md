@@ -22,3 +22,29 @@ $('body').css("background","black");
 $('.highlight').css("color","red");
 
 7
+
+$('h1').css("font-family","monospace");
+
+
+8
+
+$('.action-icon-bg').css("background-color", "red");
+
+9
+$('#name').replaceWith('<input type="text" name="name" class="contact-info" id="name" placeholder="Identify Yourself">');
+
+
+10
+
+
+$('#message').attr('placeholder',"State Your business");
+
+11
+$('#name').attr('value', "your nemesis");
+
+12
+
+$('#email').attr('value', "koalathebear@gmail.com");
+
+13
+$('#submit').attr('value', "En Garde!");
